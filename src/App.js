@@ -92,11 +92,11 @@ function App() {
 
       <section className="text-center text-white md:rounded-[24px] md:h-[325px] p-10 m-auto md:w-[60%] px-3 mt-28 md:mt-44 bg-gradient-to-l from-[#67C3F3] to-[#5A98F2]">
         <h1 className="font-medium text-2xl">What our customers are saying</h1>
-        <hr className="bg-white p-[.1rem] w-[40px] m-auto my-4" />
+        <hr className="bg-white p-[.1rem] w-[40px] m-auto mt-5" />
         <div className="flex flex-col md:flex-row justify-between  items-center md:px-20 mt-10">
           <div className="flex items-center mb-6 md:mb-0 md:w-[50%]  flex-col md:flex-row  text-left">
             <img className="h-[130px]" src={avatar} alt="avatar" />
-            <div className="ml-4">
+            <div className="md:ml-4 text-center pt-2 md:text-start">
               <h4>Edward Newgate</h4>
               <p className="text-[#ffffffd3] text-sm">Founder Circle</p>
             </div>
@@ -118,7 +118,7 @@ function App() {
       <section className="text-center mt-40 ">
 
         <div className="m-auto md:w-[60%] px-3">
-          <h1 className="font-medium text-2xl mb-7">Check out our latest article</h1>
+          <h1 className="font-medium text-2xl mb-4">Check out our latest article</h1>
           <hr className="bg-[#7D7987] p-[.1rem] w-[40px] mx-auto mt-3" />
         </div>
 
@@ -152,14 +152,14 @@ function App() {
             <h4 className="mb-4">Apps</h4>
           </div>
           <div className="mr-24 mb-10">
-            <h2 className="text-xl mb-4 -white">Region</h2>
+            <h2 className="text-xl mb-4 text-white">Region</h2>
             <h4 className=" mb-4">Indonesi</h4>
             <h4 className=" mb-4">Singapore</h4>
             <h4 className=" mb-4">Hongkong</h4>
             <h4 className=" mb-4">Canada & conditions</h4>
           </div>
           <div className="">
-            <h2 className="text-xl mb-4">Help</h2>
+            <h2 className="text-xl mb-4 text-white">Help</h2>
             <h4 className="mb-4">Help center</h4>
             <h4 className="mb-4">Contact support</h4>
             <h4 className="mb-4">Instruction</h4>

@@ -2,7 +2,7 @@ import rightArrow from "../icons/rightArrow.png"
 
 const Article = ({ imgSrc }) => {
     return (
-        <div class="w-[70%] md:w-[250px] h-[380px] bg-white mx-6 mb-10 rounded-lg overflow-hidden shadow-lg">
+        <div class="w-[75%] md:w-[250px] h-[380px] bg-white mx-6 mb-10 rounded-lg overflow-hidden shadow-lg">
             <img class="w-full" src={imgSrc} alt="Sunset in the mountains" />
             <div class="px-6 py-4 text-start">
                 <div class="font-bold text-[1.05rem] leading-6 mb-2">Disease detection, check up in the laboratory</div>
